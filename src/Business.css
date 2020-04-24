@@ -1,0 +1,16 @@
+.header-container, .results-container {
+  display: flex;
+  flex-flow: column wrap;
+  /* margin-top: 10px; */
+}
+
+.header-container .headers, .results-container .businessResults {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  height: 40px;
+}
+
+.businessResults .name, .businessResults .address, .businessResults .city, .businessResults .state, .businessResults .stars, .headers .header {
+  flex: 1 0 20%;
+}
